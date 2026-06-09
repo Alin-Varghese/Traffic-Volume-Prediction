@@ -25,7 +25,7 @@ holiday_options = ["None"] + [c.replace("holiday_", "") for c in cols if c.start
 weather_main_options = [c.replace("weather_main_", "") for c in cols if c.startswith("weather_main_")]
 weather_desc_options = [c.replace("weather_description_", "") for c in cols if c.startswith("weather_description_")]
 
-day_options = [c.replace("day_", "") for c in cols if c.startswith("day_")]
+day_options = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 holiday = st.selectbox("Holiday", holiday_options)
 weather_main = st.selectbox("Weather Main", weather_main_options)
