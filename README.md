@@ -13,10 +13,6 @@ A Machine Learning-based project developed to predict traffic volume using histo
 - Streamlit
 - Google Colab
 
-# Project Workflow
-
-Dataset → Data Preprocessing → Exploratory Data Analysis → Feature Engineering → Train-Test Split → Model Training → Hyperparameter Tuning → Model Evaluation → Streamlit Deployment
-
 # Features
 
 - Traffic volume prediction based on weather and time-related inputs
